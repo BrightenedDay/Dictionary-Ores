@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:silver_ingot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:silver_block",
+		"count": 1
+	}
+}

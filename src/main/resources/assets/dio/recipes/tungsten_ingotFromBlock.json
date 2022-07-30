@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:tungsten_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:tungsten_ingot",
+		"count": 9
+	}
+}

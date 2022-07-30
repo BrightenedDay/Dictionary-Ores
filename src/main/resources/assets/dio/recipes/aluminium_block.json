@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:aluminium_ingot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:aluminium_block",
+		"count": 1
+	}
+}

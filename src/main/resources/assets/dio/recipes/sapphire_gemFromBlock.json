@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:sapphire_gem_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:sapphire_gem",
+		"count": 9
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:lavastone_ingot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:lavastone_block",
+		"count": 1
+	}
+}

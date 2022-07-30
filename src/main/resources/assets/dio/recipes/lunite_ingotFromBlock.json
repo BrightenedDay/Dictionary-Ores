@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:lunite_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:lunite_ingot",
+		"count": 9
+	}
+}

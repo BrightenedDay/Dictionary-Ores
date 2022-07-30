@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:lithium_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:lithium_ingot",
+		"count": 9
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:amethyst_gem_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:amethyst_gem",
+		"count": 9
+	}
+}

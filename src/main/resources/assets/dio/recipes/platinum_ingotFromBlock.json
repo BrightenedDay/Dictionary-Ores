@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:platinum_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:platinum_ingot",
+		"count": 9
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:topaz_gem_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:topaz_gem",
+		"count": 9
+	}
+}

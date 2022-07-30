@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:lead_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:lead_ingot",
+		"count": 9
+	}
+}
