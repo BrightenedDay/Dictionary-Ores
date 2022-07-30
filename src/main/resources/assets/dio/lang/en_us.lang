@@ -1,0 +1,70 @@
+itemGroup.modTab=Dictionary Ores
+
+item.copper_ingot.name=Copper Ingot
+item.platinum_ingot.name=Platinum Ingot
+item.tungsten_ingot.name=Tungsten Ingot
+
+//Ores
+tile.hardstone.name=Hardstone
+tile.copper_ore.name=Copper Ore
+tile.platinum_ore.name=Platinum Ore
+tile.tungsten_ore.name=Tungsten Ore
+tile.copper_block.name=Copper Block
+tile.platinum_block.name=Platinum Block
+tile.tungsten_block.name=Tungsten Block
+
+//Gems
+tile.ruby_ore.name=Ruby Ore
+tile.sapphire_ore.name=Sapphire Ore
+tile.topaz_ore.name=Topaz Ore
+tile.amethyst_ore.name=Amethyst Ore
+
+
+item.ruby.name=Ruby
+item.sapphire_gem.name=Sapphire Gem
+item.topaz_gem.name=Topaz Gem
+item.amethyst_gem.name=Amethyst Gem
+
+tile.ruby_block.name=Ruby Block
+tile.sapphire_gem_block.name=Sapphire Gem Block
+tile.topaz_gem_block.name=Topaz Gem Block
+tile.amethyst_gem_block.name=Amethyst Gem Block
+
+
+tile.lavastone_ore.name=Calamitanium Ore
+item.lavastone_ingot.name=Calamitanium Ingot
+tile.lavastone_block.name=Calamitanium Block
+
+tile.lead_ore.name=Lead Ore
+tile.lead_block.name=Lead Block
+item.lead_ingot.name=Lead Ingot
+
+tile.xp_ore.name=XP Ore
+tile.netherrack_xp_ore.name=Netherrack XP Ore
+
+tile.aluminium_ore.name=Aluminum Ore
+tile.aluminium_block.name=Aluminum Block
+item.aluminium_ingot.name=Aluminum Ingot
+
+tile.silver_ore.name=Silver Ore
+tile.silver_block.name=Silver Block
+item.silver_ingot.name=Silver Ingot
+
+tile.tin_ore.name=Tin Ore
+tile.tin_block.name=Tin Block
+item.tin_ingot.name=Tin Ingot
+
+tile.crystal_cluster.name=Crystal Cluster
+item.crystal.name=Crystal
+
+tile.uranium_ore.name=Uranium Ore
+
+tile.glowstone_ore.name=Glowstone Ore
+
+tile.lunite_ore.name=Lunite Ore
+tile.lunite_block.name=Lunite Block
+item.lunite_ingot.name=Lunite Ingot
+
+tile.lithium_ore.name=Lithium Ore
+tile.lithium_block.name=Lithium Block
+item.lithium_ingot.name=Lithium Ingot

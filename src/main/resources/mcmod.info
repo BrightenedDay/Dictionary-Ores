@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dio",
+  "name": "Dictionary Ores",
+  "description": "Adds a bunch of ores, for OreDictionary reasons.",
+  "version": "",
+  "mcversion": "${mcversion}",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/dictionary-ores",
+  "updateUrl": "",
+  "authorList": ["Sabastians"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
