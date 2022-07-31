@@ -78,5 +78,11 @@ public class OreDict {
 		OreDictionary.registerOre("oreLithium", BlockInit.LITHIUM_ORE);
 		OreDictionary.registerOre("ingotLithium", ItemInit.LITHIUM_INGOT);
 		OreDictionary.registerOre("blockLithium", BlockInit.LITHIUM_BLOCK);
+		
+		//Magicite
+		OreDictionary.registerOre("oreMagicite", BlockInit.MAGICITE_ORE);
+		OreDictionary.registerOre("dustMagiciteTier1", ItemInit.MAGICITE_DUST_TIER1);
+		OreDictionary.registerOre("ingotMagiciteTier1", ItemInit.MAGICITE_INGOT_TIER1);
+		OreDictionary.registerOre("blockMagiciteTier1", BlockInit.MAGICITE_BLOCK_TIER1);
 	}
 }

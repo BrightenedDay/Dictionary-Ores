@@ -8,6 +8,7 @@ import com.sabastian.dio.blocks.BlockBase;
 import com.sabastian.dio.blocks.CrystalBlock;
 import com.sabastian.dio.blocks.GlowstoneOre;
 import com.sabastian.dio.blocks.LavastoneOre;
+import com.sabastian.dio.blocks.MagiciteBlock;
 import com.sabastian.dio.blocks.XPOre;
 
 import net.minecraft.block.Block;
@@ -77,4 +78,5 @@ public class BlockInit {
 	public static final Block LITHIUM_BLOCK = new BlockBase("lithium_block", Material.IRON, 4f, 2, "pickaxe", 7, Main.modTab);
 	
 	public static final Block MAGICITE_ORE = new BlockBase("magicite_ore", Material.ROCK, 4.3F, 2, "pickaxe", 10, Main.modTab);
+	public static final Block MAGICITE_BLOCK_TIER1 = new MagiciteBlock("magicite_block_tier1", Material.IRON, 4.8F, 2, "pickaxe", 10, Main.modTab, 1);
 }
