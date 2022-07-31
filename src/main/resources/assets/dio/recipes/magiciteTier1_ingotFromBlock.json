@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"X"
+	],
+	
+	"key":
+	{
+		"X":
+		{
+			"item": "dio:magicite_block_tier1"
+		}
+	},
+	
+	"result":
+	{
+		"item": "dio:magicite_ingot_tier1",
+		"count": 9
+	}
+}
