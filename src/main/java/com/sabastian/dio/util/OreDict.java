@@ -64,7 +64,7 @@ public class OreDict {
 		OreDictionary.registerOre("ingotTin", ItemInit.TIN_INGOT);
 		OreDictionary.registerOre("blockTin", BlockInit.TIN_BLOCK);
 		
-		OreDictionary.registerOre("blockCrystal", BlockInit.CRYSTAL_BLOCK);
+		OreDictionary.registerOre("oreCrystal", BlockInit.CRYSTAL_BLOCK);
 		OreDictionary.registerOre("gemCrystal", ItemInit.CRYSTAL);
 		
 		OreDictionary.registerOre("oreUranium", BlockInit.CRYSTAL_BLOCK);

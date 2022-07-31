@@ -30,6 +30,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 	private WorldGenerator uranium_ore;
 	private WorldGenerator lunite_ore;
 	private WorldGenerator lithium_ore;
+	private WorldGenerator magicite_ore;
 	
 	// Gem Types
 	private WorldGenerator ruby_ore;
@@ -51,6 +52,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
 		uranium_ore = new WorldGenMinable(BlockInit.URANIUM_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.STONE));
 		lunite_ore = new WorldGenMinable(BlockInit.LUNITE_ORE.getDefaultState(), 6, BlockMatcher.forBlock(Blocks.STONE));
 		lithium_ore = new WorldGenMinable(BlockInit.LITHIUM_ORE.getDefaultState(), 6, BlockMatcher.forBlock(Blocks.STONE));
+		magicite_ore = new WorldGenMinable(BlockInit.MAGICITE_ORE.getDefaultState(), 6, BlockMatcher.forBlock(Blocks.END_STONE));
 		
 		// Gem Types
 		ruby_ore = new WorldGenMinable(BlockInit.RUBY_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.STONE));
@@ -69,15 +71,15 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			break;
 		case 0: // Overworld
 			if(ConfigManager.canSpawnCopper)
-				runGenerator(overworld_copper, random, world, chunkX, chunkZ, 50, 0, world.getActualHeight());
+				runGenerator(overworld_copper, random, world, chunkX, chunkZ, 50, 0, world.getHeight());
 			if(ConfigManager.canSpawnPlatinum)
-				runGenerator(overworld_platinum, random, world, chunkX, chunkZ, 20, 0, 40);
+				runGenerator(overworld_platinum, random, world, chunkX, chunkZ, 3, 0, 40);
 			if(ConfigManager.canSpawnTungsten)
-				runGenerator(overworld_tungsten, random, world, chunkX, chunkZ, 5, 0, 20);
+				runGenerator(overworld_tungsten, random, world, chunkX, chunkZ, 11, 0, 20);
 			if(ConfigManager.canSpawnHardstone)
 				runGenerator(hardstone, random, world, chunkX, chunkZ, 79, 0, world.getActualHeight());
 			if(ConfigManager.canSpawnClayUnderground)
-				runGenerator(undergroundClayBlock, random, world, chunkX, chunkZ, 65, 0, world.getActualHeight());
+				runGenerator(undergroundClayBlock, random, world, chunkX, chunkZ, 65, 0, world.getHeight());
 			if(ConfigManager.canSpawnLavastone)
 				generateCertainOre(BlockInit.LAVASTONE_ORE, world, random, chunkX * 16, chunkZ * 16, 0, 20, 3, 8, BlockMatcher.forBlock(Blocks.STONE));
 			
@@ -97,13 +99,13 @@ public class WorldGenCustomOres implements IWorldGenerator {
 				runGenerator(lead_ore, random, world, chunkX, chunkZ, 15, 0, 50);
 			
 			if(ConfigManager.canSpawnAluminium)
-				runGenerator(aluminium_ore, random, world, chunkX, chunkZ, 23, 0, 50);
+				runGenerator(aluminium_ore, random, world, chunkX, chunkZ, 20, 0, 50);
 			
 			if(ConfigManager.canSpawnSilver)
-				runGenerator(silver_ore, random, world, chunkX, chunkZ, 40, 0, 50);
+				runGenerator(silver_ore, random, world, chunkX, chunkZ, 35, 0, 50);
 			
 			if(ConfigManager.canSpawnTin)
-				runGenerator(tin_ore, random, world, chunkX, chunkZ, 40, 0, world.getActualHeight());
+				runGenerator(tin_ore, random, world, chunkX, chunkZ, 40, 0, world.getHeight());
 			
 			
 			if(ConfigManager.canSpawnXPore)
@@ -129,6 +131,8 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			
 			break;
 		case 1: // The End
+			if(ConfigManager.canSpawnMagiciteOre)
+				runGenerator(magicite_ore, random, world, chunkX, chunkZ, 8, 0, world.getHeight());
 			break;
 		}
 	}

@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.sabastian.dio.Main;
 import com.sabastian.dio.items.ItemBase;
+import com.sabastian.dio.items.MagiciteTier1;
 
 import net.minecraft.item.Item;
 
@@ -23,6 +24,7 @@ public class ItemInit {
 	public static final Item TIN_INGOT = new ItemBase("tin_ingot", Main.modTab);
 	public static final Item LUNITE_INGOT = new ItemBase("lunite_ingot", Main.modTab);
 	public static final Item LITHIUM_INGOT = new ItemBase("lithium_ingot", Main.modTab);
+	public static final Item MAGICITE_INGOT_TIER1 = new MagiciteTier1("magicite_ingot_tier1", Main.modTab);
 	
 	// Gems
 	public static final Item RUBY = new ItemBase("ruby", Main.modTab);
@@ -30,4 +32,7 @@ public class ItemInit {
 	public static final Item TOPAZ_GEM = new ItemBase("topaz_gem", Main.modTab);
 	public static final Item AMETHYST_GEM = new ItemBase("amethyst_gem", Main.modTab);
 	public static final Item CRYSTAL = new ItemBase("crystal", Main.modTab);
+	
+	// Dusts
+	public static final Item MAGICITE_DUST_TIER1 = new MagiciteTier1("magicite_dust_tier1", Main.modTab);
 }

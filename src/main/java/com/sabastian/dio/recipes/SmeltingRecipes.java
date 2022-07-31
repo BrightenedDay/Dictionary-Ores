@@ -19,5 +19,7 @@ public class SmeltingRecipes {
 		GameRegistry.addSmelting(new ItemStack(BlockInit.TIN_ORE), new ItemStack(ItemInit.TIN_INGOT), 0.5F);
 		GameRegistry.addSmelting(new ItemStack(BlockInit.LUNITE_ORE), new ItemStack(ItemInit.LUNITE_INGOT), 0.5F);
 		GameRegistry.addSmelting(new ItemStack(BlockInit.LITHIUM_ORE), new ItemStack(ItemInit.LITHIUM_INGOT), 0.5F);
+		GameRegistry.addSmelting(new ItemStack(BlockInit.MAGICITE_ORE), new ItemStack(ItemInit.MAGICITE_DUST_TIER1), 0.5F);
+		GameRegistry.addSmelting(new ItemStack(ItemInit.MAGICITE_DUST_TIER1), new ItemStack(ItemInit.MAGICITE_INGOT_TIER1), 0.5F);
 	}
 }

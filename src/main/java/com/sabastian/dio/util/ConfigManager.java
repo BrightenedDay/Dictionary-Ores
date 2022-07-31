@@ -28,6 +28,7 @@ public class ConfigManager {
 	public static boolean canSpawnUraniumOre;
 	public static boolean canSpawnLuniteOre;
 	public static boolean canSpawnLithiumOre;
+	public static boolean canSpawnMagiciteOre;
 	
 	
 	public static void ModConfig(FMLInitializationEvent event) {
@@ -57,6 +58,7 @@ public class ConfigManager {
 		canSpawnUraniumOre = config.getBoolean("Generate Uranium Ore", "World Gen", true, "");
 		canSpawnLuniteOre = config.getBoolean("Generate Lunite Ore", "World Gen", true, "");
 		canSpawnLithiumOre = config.getBoolean("Generate Lithium Ore", "World Gen", true, "");
+		canSpawnMagiciteOre = config.getBoolean("Generate Magicite Ore", "World Gen", true, "Only spawns in the end dimension.");
 		
 		config.save();
 	}

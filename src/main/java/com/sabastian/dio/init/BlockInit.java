@@ -75,4 +75,6 @@ public class BlockInit {
 	
 	public static final Block LITHIUM_ORE = new BlockBase("lithium_ore", Material.ROCK, 1F, 2, "pickaxe", 5, Main.modTab);
 	public static final Block LITHIUM_BLOCK = new BlockBase("lithium_block", Material.IRON, 4f, 2, "pickaxe", 7, Main.modTab);
+	
+	public static final Block MAGICITE_ORE = new BlockBase("magicite_ore", Material.ROCK, 4.3F, 2, "pickaxe", 10, Main.modTab);
 }
