@@ -9,9 +9,9 @@ tile.hardstone.name=Hardstone
 tile.copper_ore.name=Copper Ore
 tile.platinum_ore.name=Platinum Ore
 tile.tungsten_ore.name=Tungsten Ore
-tile.copper_block.name=Copper Block
-tile.platinum_block.name=Platinum Block
-tile.tungsten_block.name=Tungsten Block
+tile.copper_block.name=Block of Copper
+tile.platinum_block.name=Block of Platinum
+tile.tungsten_block.name=Block of Tungsten
 
 //Gems
 tile.ruby_ore.name=Ruby Ore
@@ -21,14 +21,14 @@ tile.amethyst_ore.name=Amethyst Ore
 
 
 item.ruby.name=Ruby
-item.sapphire_gem.name=Sapphire Gem
-item.topaz_gem.name=Topaz Gem
-item.amethyst_gem.name=Amethyst Gem
+item.sapphire_gem.name=Sapphire
+item.topaz_gem.name=Topaz
+item.amethyst_gem.name=Amethyst
 
-tile.ruby_block.name=Ruby Block
-tile.sapphire_gem_block.name=Sapphire Gem Block
-tile.topaz_gem_block.name=Topaz Gem Block
-tile.amethyst_gem_block.name=Amethyst Gem Block
+tile.ruby_block.name=Block of Ruby
+tile.sapphire_gem_block.name=Block of Sapphire
+tile.topaz_gem_block.name=Block of Topaz
+tile.amethyst_gem_block.name=Block of Amethyst
 
 
 tile.lavastone_ore.name=Calamitanium Ore
@@ -36,22 +36,22 @@ item.lavastone_ingot.name=Calamitanium Ingot
 tile.lavastone_block.name=Calamitanium Block
 
 tile.lead_ore.name=Lead Ore
-tile.lead_block.name=Lead Block
+tile.lead_block.name=Block of Lead
 item.lead_ingot.name=Lead Ingot
 
 tile.xp_ore.name=XP Ore
 tile.netherrack_xp_ore.name=Netherrack XP Ore
 
 tile.aluminium_ore.name=Aluminum Ore
-tile.aluminium_block.name=Aluminum Block
+tile.aluminium_block.name=Block of Aluminum
 item.aluminium_ingot.name=Aluminum Ingot
 
 tile.silver_ore.name=Silver Ore
-tile.silver_block.name=Silver Block
+tile.silver_block.name=Block of Silver
 item.silver_ingot.name=Silver Ingot
 
 tile.tin_ore.name=Tin Ore
-tile.tin_block.name=Tin Block
+tile.tin_block.name=Block of Tin
 item.tin_ingot.name=Tin Ingot
 
 tile.crystal_cluster.name=Crystal Cluster
@@ -62,9 +62,9 @@ tile.uranium_ore.name=Uranium Ore
 tile.glowstone_ore.name=Glowstone Ore
 
 tile.lunite_ore.name=Lunite Ore
-tile.lunite_block.name=Lunite Block
+tile.lunite_block.name=Block of Lunite
 item.lunite_ingot.name=Lunite Ingot
 
 tile.lithium_ore.name=Lithium Ore
-tile.lithium_block.name=Lithium Block
+tile.lithium_block.name=Block of Lithium
 item.lithium_ingot.name=Lithium Ingot
