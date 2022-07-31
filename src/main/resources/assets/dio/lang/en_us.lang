@@ -61,10 +61,15 @@ tile.uranium_ore.name=Uranium Ore
 
 tile.glowstone_ore.name=Glowstone Ore
 
-tile.lunite_ore.name=Lunite Ore
-tile.lunite_block.name=Block of Lunite
-item.lunite_ingot.name=Lunite Ingot
+tile.lunite_ore.name=§eLunite Ore
+tile.lunite_block.name=§eBlock of Lunite
+item.lunite_ingot.name=§eLunite Ingot
 
 tile.lithium_ore.name=Lithium Ore
 tile.lithium_block.name=Block of Lithium
 item.lithium_ingot.name=Lithium Ingot
+
+tile.magicite_ore.name=§eMagicite Ore
+item.magicite_dust_tier1.name=§eMagicite Dust
+item.magicite_ingot_tier1.name=§eMagicite Ingot
+tile.magicite_block_tier1.name=§eMagicite Block
